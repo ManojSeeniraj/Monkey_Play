@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<PlacementResponse Version="1.1">
+    <Status>
+        <Acknowledgement>0</Acknowledgement>
+        <Message>Success</Message>
+    </Status>
+    <Header>Asset,TI</Header>
+    <Asset>
+    <AssetId>A100004</AssetId>
+    <Type>png</Type>
+
+    <ArmWidth>400</ArmWidth>
+    <ArmHeight>220</ArmHeight>
+
+    <Duration>8</Duration>
+    <TimeInterval>10</TimeInterval>
+    <Priority>0</Priority>
+    <DisplayPositionCode>4:0</DisplayPositionCode>
+    <BannerUrl>http://tadsapp1.cloudapp.net/tAdsServer/PoisAdt/getAsset?id=A100012</BannerUrl>
+    <AdCompanionInfo>
+        <AdCompanionAssetType>3</AdCompanionAssetType>
+        <AdCompanionLinkURL>https://in.puma.com/?mktID=PL:Brand%20Marketing:Puma.com-CatchAllPage:India-en&amp;plinkID=Brand</AdCompanionLinkURL>
+    </AdCompanionInfo>
+    <RepeatBanner>0</RepeatBanner>
+</Asset>
+</PlacementResponse>

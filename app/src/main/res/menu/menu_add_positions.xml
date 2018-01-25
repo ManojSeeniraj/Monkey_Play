@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuAddRight"
+        android:title="@string/Menu.Add.Right" />
+    <item
+        android:id="@+id/menuAddBottom"
+        android:title="@string/Menu.Add.Bottom" />
+    <item
+        android:id="@+id/menuAddLeft"
+        android:title="@string/Menu.Add.Left" />
+    <item
+        android:id="@+id/menuAddTop"
+        android:title="@string/Menu.Add.Top" />
+    <item
+        android:id="@+id/menuAddL"
+        android:title="@string/Menu.Add.L" />
+</menu>

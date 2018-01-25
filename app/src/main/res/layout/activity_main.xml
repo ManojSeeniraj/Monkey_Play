@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@+id/rootParent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/buttonContainer"
+        android:background="@drawable/back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button android:id="@+id/btnStartDemo"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button.Start.Demo" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/rootVerticalContainer"
+        android:background="@android:color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <ImageView android:id="@+id/addTop"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="3.0"
+            app:srcCompat="@drawable/add_horizontal"
+            />
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/rootHorizontalContainer"
+            android:background="@drawable/background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+
+
+            <ImageView android:id="@+id/addLeftLShapedOne"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:layout_weight="7.0"
+                app:srcCompat="@drawable/vertical1"
+
+                />
+
+
+            <ImageView android:id="@+id/addLeftLShapedTwo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:layout_weight="7.0"
+                app:srcCompat="@drawable/vertical2"
+                />
+
+
+            <ImageView
+                android:id="@+id/addLeft"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:layout_weight="7.0"
+
+
+
+                />
+
+
+            <LinearLayout android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@+id/videoContainer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <VideoView android:id="@+id/video"
+                        android:fitsSystemWindows="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/addBottomLShapedTwo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:layout_weight="3.0"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/addRight"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:layout_weight="7.0"
+                />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/addBottomLShapedOne"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="3.0"
+            app:srcCompat="@drawable/horizontal2"
+            />
+        <ImageView android:id="@+id/addBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:layout_weight="3.0"
+            app:srcCompat="@drawable/add_vertical"
+            />
+    </LinearLayout>
+</LinearLayout>

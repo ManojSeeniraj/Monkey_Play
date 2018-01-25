@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MonkeyPlay</string>
+    <string name="rightVertical">Right Vertical</string>
+    <string name="topHorizontal">Top Horizontal</string>
+    <string name="bottomHorizontal">Bottom Horizontal</string>
+    <string name="lShaped">L Shaped</string>
+    <string name="leftVertical">Left Vertical</string>
+
+
+    <!-- MENU STRINGS -->
+    <string name="Menu.Add.Right">Right</string>
+    <string name="Menu.Add.Bottom">Bottom</string>
+    <string name="Menu.Add.Left">Left</string>
+    <string name="Menu.Add.Top">Top</string>
+    <string name="Menu.Add.L">L</string>
+    <!-- MENU STRINGS -->
+
+    <string name="Button.Start.Demo">Action</string>
+
+
+</resources>

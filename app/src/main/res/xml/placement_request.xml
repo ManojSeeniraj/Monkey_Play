@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<PlacementRequest  Version="1.1">
+    <Header>POIS</Header>
+    <SubscriberId>S1000000</SubscriberId>
+    <UserId>U2</UserId>
+    <TimeZone>America/Anchorage</TimeZone>
+    <TimeStamp>1372882594860</TimeStamp>
+    <Mode>WATCH_TV</Mode>
+    <State>FULL_SCREEN_VIDEO</State>
+    <ChannelNumber>497000:5:383</ChannelNumber>
+    <EventName>Zula Patrol</EventName>
+    <GenreORChannelName value="0">Action</GenreORChannelName>
+    <Resolution>SD</Resolution>
+    <AudioLanguage>eng</AudioLanguage>
+    <Reattempt>1</Reattempt>
+</PlacementRequest>
